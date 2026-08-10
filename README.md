@@ -67,7 +67,7 @@ not a quality rating — read the description before installing.
 
 <!-- AG-META:START -->
 
-> **Last refreshed:** `2026-08-10 18:48 UTC` · **67 repos** tracked · **7** categories · source: `data/entries.yml`
+> **Last refreshed:** `2026-08-10 19:15 UTC` · **67 repos** tracked · **7** categories · source: `data/entries.yml`
 
 <!-- AG-META:END -->
 
@@ -81,13 +81,13 @@ Change how Claude Code thinks, plans and works — not just what it can access.
 | --- | --- | ---: | --- | --- |
 | [Superpowers](https://github.com/obra/superpowers) | TDD-first skills framework: planning, brainstorming, structured debugging, skill authoring. | 270.2k | 2026-08-08 | `plugin: obra/superpowers-marketplace` |
 | [gstack](https://github.com/garrytan/gstack) | Garry Tan's virtual engineering team: 23 slash-command skills for plan, review, design, QA, securit… | 127.4k | 2026-08-08 | `gstacks.org/install.sh` |
+| [ponytail](https://github.com/dietrichgebert/ponytail) | Makes your agent think like the laziest senior dev in the room: short, decisive output. | 100.1k | 2026-08-07 | `DietricGebert/ponytail` |
 | [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | From vibe coding to agentic engineering: battle-tested practices that make Claude better. | 64.3k | 2026-08-10 | `shanraisshan/claude-code-best-practice` |
 | [planning-with-files](https://github.com/othmanadi/planning-with-files) | Persistent file-based planning for long-running agent tasks that survives crashes and context reset… | 26.1k | 2026-08-09 | `clone: OthmanAdi/planning-with-files` |
 | [Compound Engineering](https://github.com/everyinc/compound-engineering-plugin) | Spawns 50+ sub-agents so Claude gets smarter about your codebase over time. | 24.2k | 2026-08-08 | `plugin: EveryInc/compound-engineering-plugin` |
-| [harness](https://github.com/revfactory/harness) | Meta-skill that designs domain-specific agent teams and generates the skills they use. | 8.6k | 2026-07-24 | `revfactory/harness` |
+| [harness](https://github.com/revfactory/harness) | Meta-skill that designs domain-specific agent teams and generates the skills they use. | 8.7k | 2026-07-24 | `revfactory/harness` |
 | [pro-workflow](https://github.com/rohitg00/pro-workflow) | Self-correcting memory workflow: Claude learns from your corrections, compounding over time. | 2.8k | 2026-08-03 | `rohitg00/pro-workflow` |
 | [autoharness](https://github.com/tigerless-labs/autoharness) | Self-learning skill layer for Claude Code that distills skills from your own sessions. | 904 | 2026-07-28 | `tigerless-labs/autoharness` |
-| [ponytail](https://github.com/dietrichgebert/ponytail) | Makes your agent think like the laziest senior dev in the room: short, decisive output. | — | — | `DietrichGebert/ponytail` |
 
 <!-- AG-END:frameworks -->
 
@@ -203,15 +203,15 @@ Where the rest of the ecosystem lives: marketplaces, mega-lists and searchable c
 | Project | What it does | Stars | Updated | Install |
 | --- | --- | ---: | --- | --- |
 | [skills](https://github.com/anthropics/skills) <sub>✅ official</sub> | Anthropic's official skills library, showing how skills are designed and used internally. | 167.4k | 2026-08-07 | `anthropics/skills` |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | The de-facto catalog of MCP servers, for Claude Code, Cursor and any MCP client. | 92.0k | 2026-08-03 | `punkpeye/awesome-mcp-servers` |
+| [servers](https://github.com/modelcontextprotocol/servers) <sub>✅ official</sub> | Official reference MCP servers from the Model Context Protocol team. | 89.4k | 2026-08-10 | `modelcontextprotocol/servers` |
+| [awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills) | 1,000+ skills and SaaS integrations in one install. | 72.2k | 2026-07-24 | `ComposioHQ/awesome-claude-skills` |
+| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | The big curated collection of Claude Code patterns, hooks and commands. | 52.1k | 2026-08-10 | `hesreallyhim/awesome-claude-code` |
 | [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) <sub>✅ official</sub> | Anthropic's official marketplace: 200+ curated first-party and partner plugins. | 33.4k | 2026-08-10 | `auto-registered` |
+| [claude-code-templates](https://github.com/davila7/claude-code-templates) | Open-source catalog and CLI behind aitmpl.com: thousands of agents, commands, skills and MCP server… | 30.2k | 2026-08-10 | `aitmpl.com` |
+| [awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins) | Curated list of production-ready plugins that extend Claude Code. | 1.9k | 2026-07-26 | `composio-community/awesome-claude-plugins` |
+| [awesome-claude-plugins-metrics](https://github.com/quemsah/awesome-claude-plugins) | Automated collection of Claude Code plugin adoption metrics across GitHub repositories. | 1.2k | 2026-08-08 | `quemsah/awesome-claude-plugins` |
 | [claude-plugins-community](https://github.com/anthropics/claude-plugins-community) <sub>✅ official</sub> | Anthropic's reviewed community marketplace, installed with the @claude-community suffix. | 341 | 2026-08-10 | `@claude-community` |
-| [claude-code-templates](https://github.com/davila7/claude-code-templates) | Open-source catalog and CLI behind aitmpl.com: thousands of agents, commands, skills and MCP server… | — | — | `aitmpl.com` |
-| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | The big curated collection of Claude Code patterns, hooks and commands. | — | — | `hesreallyhim/awesome-claude-code` |
-| [awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills) | 1,000+ skills and SaaS integrations in one install. | — | — | `ComposioHQ/awesome-claude-skills` |
-| [awesome-claude-plugins](https://github.com/composio-community/awesome-claude-plugins) | Curated list of production-ready plugins that extend Claude Code. | — | — | `composio-community/awesome-claude-plugins` |
-| [awesome-claude-plugins-metrics](https://github.com/quemsah/awesome-claude-plugins) | Automated collection of Claude Code plugin adoption metrics across GitHub repositories. | — | — | `quemsah/awesome-claude-plugins` |
-| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | The de-facto catalog of MCP servers, for Claude Code, Cursor and any MCP client. | — | — | `punkpeye/awesome-mcp-servers` |
-| [servers](https://github.com/modelcontextprotocol/servers) <sub>✅ official</sub> | Official reference MCP servers from the Model Context Protocol team. | — | — | `modelcontextprotocol/servers` |
 
 <!-- AG-END:catalogs -->
 
