@@ -1,0 +1,1315 @@
+{
+  "schema": "awesome-guard/v1",
+  "title": "Claude Plugins Radar",
+  "description": "The live, hand-curated, machine-readable directory of Claude Code plugins, skills and agents.",
+  "updated_at": "2026-08-10 18:51 UTC",
+  "repo_count": 67,
+  "category_count": 7,
+  "unverified": [],
+  "categories": [
+    {
+      "id": "frameworks",
+      "title": "Frameworks & Methodology",
+      "subtitle": "Change how Claude Code thinks, plans and works — not just what it can access.",
+      "entries": [
+        {
+          "name": "Superpowers",
+          "repo": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "TDD-first skills framework: planning, brainstorming, structured debugging, skill authoring.",
+          "tags": [
+            "workflow",
+            "tdd",
+            "skills"
+          ],
+          "official": false,
+          "install": "plugin: obra/superpowers-marketplace",
+          "stars": 270160,
+          "forks": 24155,
+          "language": "Shell",
+          "license": "MIT",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "gstack",
+          "repo": "garrytan/gstack",
+          "url": "https://github.com/garrytan/gstack",
+          "description": "Garry Tan's virtual engineering team: 23 slash-command skills for plan, review, design, QA, security, ship.",
+          "tags": [
+            "team",
+            "workflow",
+            "planning"
+          ],
+          "official": false,
+          "install": "gstacks.org/install.sh",
+          "stars": 127353,
+          "forks": 19195,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-code-best-practice",
+          "repo": "shanraisshan/claude-code-best-practice",
+          "url": "https://github.com/shanraisshan/claude-code-best-practice",
+          "description": "From vibe coding to agentic engineering: battle-tested practices that make Claude better.",
+          "tags": [
+            "practice",
+            "guide"
+          ],
+          "official": false,
+          "install": "shanraisshan/claude-code-best-practice",
+          "stars": 64268,
+          "forks": 6389,
+          "language": "HTML",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "planning-with-files",
+          "repo": "othmanadi/planning-with-files",
+          "url": "https://github.com/othmanadi/planning-with-files",
+          "description": "Persistent file-based planning for long-running agent tasks that survives crashes and context resets.",
+          "tags": [
+            "planning",
+            "files"
+          ],
+          "official": false,
+          "install": "clone: OthmanAdi/planning-with-files",
+          "stars": 26084,
+          "forks": 2182,
+          "language": "Shell",
+          "license": "MIT",
+          "last_push": "2026-08-09",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "Compound Engineering",
+          "repo": "everyinc/compound-engineering-plugin",
+          "url": "https://github.com/everyinc/compound-engineering-plugin",
+          "description": "Spawns 50+ sub-agents so Claude gets smarter about your codebase over time.",
+          "tags": [
+            "agents",
+            "knowledge"
+          ],
+          "official": false,
+          "install": "plugin: EveryInc/compound-engineering-plugin",
+          "stars": 24167,
+          "forks": 1990,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "harness",
+          "repo": "revfactory/harness",
+          "url": "https://github.com/revfactory/harness",
+          "description": "Meta-skill that designs domain-specific agent teams and generates the skills they use.",
+          "tags": [
+            "agents",
+            "meta"
+          ],
+          "official": false,
+          "install": "revfactory/harness",
+          "stars": 8648,
+          "forks": 1189,
+          "language": "HTML",
+          "license": "Apache-2.0",
+          "last_push": "2026-07-24",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "pro-workflow",
+          "repo": "rohitg00/pro-workflow",
+          "url": "https://github.com/rohitg00/pro-workflow",
+          "description": "Self-correcting memory workflow: Claude learns from your corrections, compounding over time.",
+          "tags": [
+            "memory",
+            "workflow"
+          ],
+          "official": false,
+          "install": "rohitg00/pro-workflow",
+          "stars": 2769,
+          "forks": 270,
+          "language": "JavaScript",
+          "license": "",
+          "last_push": "2026-08-03",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "autoharness",
+          "repo": "tigerless-labs/autoharness",
+          "url": "https://github.com/tigerless-labs/autoharness",
+          "description": "Self-learning skill layer for Claude Code that distills skills from your own sessions.",
+          "tags": [
+            "skills",
+            "learning"
+          ],
+          "official": false,
+          "install": "tigerless-labs/autoharness",
+          "stars": 904,
+          "forks": 68,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-07-28",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "ponytail",
+          "repo": "dietrichgebert/ponytail",
+          "url": "https://github.com/dietrichgebert/ponytail",
+          "description": "Makes your agent think like the laziest senior dev in the room: short, decisive output.",
+          "tags": [
+            "style",
+            "productivity"
+          ],
+          "official": false,
+          "install": "DietrichGebert/ponytail",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "plugins",
+      "title": "Plugins & Marketplaces",
+      "subtitle": "Ready-made plugin packs and marketplaces you can install in one command.",
+      "entries": [
+        {
+          "name": "ui-ux-pro-max",
+          "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+          "description": "Design-intelligence plugin that layers opinionated UI/UX guidance on top of Claude's output.",
+          "tags": [
+            "design",
+            "uiux"
+          ],
+          "official": false,
+          "install": "plugin: nextlevelbuilder/ui-ux-pro-max-skill",
+          "stars": 115289,
+          "forks": 12358,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-06",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "agents",
+          "repo": "wshobson/agents",
+          "url": "https://github.com/wshobson/agents",
+          "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor and more.",
+          "tags": [
+            "marketplace",
+            "agents"
+          ],
+          "official": false,
+          "install": "plugin: wshobson/agents",
+          "stars": 38689,
+          "forks": 4125,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-05",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "pm-skills",
+          "repo": "phuryn/pm-skills",
+          "url": "https://github.com/phuryn/pm-skills",
+          "description": "PM skills marketplace: 100+ agentic skills, commands and plugins for the whole product lifecycle.",
+          "tags": [
+            "pm",
+            "marketplace"
+          ],
+          "official": false,
+          "install": "plugin: phuryn/pm-skills",
+          "stars": 25104,
+          "forks": 2691,
+          "language": "",
+          "license": "MIT",
+          "last_push": "2026-07-03",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-skills",
+          "repo": "alirezarezvani/claude-skills",
+          "url": "https://github.com/alirezarezvani/claude-skills",
+          "description": "345 Claude Code skills, agents and plugins: 30+ agents, 70+ custom commands.",
+          "tags": [
+            "skills",
+            "marketplace"
+          ],
+          "official": false,
+          "install": "plugin: alirezarezvani/claude-skills",
+          "stars": 24234,
+          "forks": 3416,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-09",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-code-plugins-plus-skills",
+          "repo": "jeremylongshore/claude-code-plugins-plus-skills",
+          "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+          "description": "471 plugins, 3,069 skills and 347 agents. Open-source marketplace with the ccpi CLI package manager.",
+          "tags": [
+            "marketplace",
+            "package-manager"
+          ],
+          "official": false,
+          "install": "ccpi",
+          "stars": 2612,
+          "forks": 381,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-code-settings",
+          "repo": "feiskyer/claude-code-settings",
+          "url": "https://github.com/feiskyer/claude-code-settings",
+          "description": "Curated skills, sub-agents and config templates that supercharge Claude Code.",
+          "tags": [
+            "config"
+          ],
+          "official": false,
+          "install": "feiskyer/claude-code-settings",
+          "stars": 1627,
+          "forks": 245,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-07-27",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-codex-settings",
+          "repo": "fcakyon/claude-codex-settings",
+          "url": "https://github.com/fcakyon/claude-codex-settings",
+          "description": "Battle-tested Claude Code, Codex and Cursor configs, plugins, hooks and agents.",
+          "tags": [
+            "config",
+            "cross-tool"
+          ],
+          "official": false,
+          "install": "fcakyon/claude-codex-settings",
+          "stars": 1028,
+          "forks": 94,
+          "language": "Python",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-night-market",
+          "repo": "athola/claude-night-market",
+          "url": "https://github.com/athola/claude-night-market",
+          "description": "23 Claude Code plugins: TDD enforcement hooks, git/PR workflows, spec-driven development.",
+          "tags": [
+            "pack",
+            "hooks"
+          ],
+          "official": false,
+          "install": "plugin: athola/claude-night-market",
+          "stars": 327,
+          "forks": 35,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "ultraship",
+          "repo": "houseofmvps/ultraship",
+          "url": "https://github.com/houseofmvps/ultraship",
+          "description": "39 skills, 33 tools and 11 agents for ship-ready workflows.",
+          "tags": [
+            "pack",
+            "shipping"
+          ],
+          "official": false,
+          "install": "plugin: Houseofmvps/ultraship",
+          "stars": 115,
+          "forks": 13,
+          "language": "JavaScript",
+          "license": "MIT",
+          "last_push": "2026-07-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-plugins",
+          "repo": "2389-research/claude-plugins",
+          "url": "https://github.com/2389-research/claude-plugins",
+          "description": "28 plugins and MCP servers: TDD, multi-agent orchestration and iteration workflows.",
+          "tags": [
+            "pack",
+            "mcp"
+          ],
+          "official": false,
+          "install": "plugin: 2389-research/claude-plugins",
+          "stars": 90,
+          "forks": 6,
+          "language": "JavaScript",
+          "license": "MIT",
+          "last_push": "2026-08-05",
+          "archived": false,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "title": "Memory & Context",
+      "subtitle": "Give Claude Code memory across sessions and keep context windows lean.",
+      "entries": [
+        {
+          "name": "claude-mem",
+          "repo": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "description": "Persistent context across sessions for every agent: captures everything your agent learns.",
+          "tags": [
+            "memory"
+          ],
+          "official": false,
+          "install": "npm: claude-mem",
+          "stars": 90315,
+          "forks": 7863,
+          "language": "JavaScript",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "context-mode",
+          "repo": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "description": "Context-window optimization: sandboxes tool output (98% reduction), persists session memory.",
+          "tags": [
+            "context",
+            "optimization"
+          ],
+          "official": false,
+          "install": "mksglu/context-mode",
+          "stars": 19771,
+          "forks": 1419,
+          "language": "TypeScript",
+          "license": "NOASSERTION",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "Continuous-Claude-v3",
+          "repo": "parcadei/continuous-claude-v3",
+          "url": "https://github.com/parcadei/continuous-claude-v3",
+          "description": "Context management via hooks: state kept in ledgers with clean handoffs between sessions.",
+          "tags": [
+            "hooks",
+            "state"
+          ],
+          "official": false,
+          "install": "parcadei/Continuous-Claude-v3",
+          "stars": 3883,
+          "forks": 295,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-01-26",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "arscontexta",
+          "repo": "agenticnotetaking/arscontexta",
+          "url": "https://github.com/agenticnotetaking/arscontexta",
+          "description": "Claude Code plugin that generates individualized knowledge systems from your conversations.",
+          "tags": [
+            "knowledge"
+          ],
+          "official": false,
+          "install": "plugin: agenticnotetaking/arscontexta",
+          "stars": 3470,
+          "forks": 220,
+          "language": "Shell",
+          "license": "MIT",
+          "last_push": "2026-02-24",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "memsearch",
+          "repo": "zilliztech/memsearch",
+          "url": "https://github.com/zilliztech/memsearch",
+          "description": "Persistent, unified memory layer for all your AI agents — Claude Code, Codex and more.",
+          "tags": [
+            "memory",
+            "rag"
+          ],
+          "official": false,
+          "install": "zilliztech/memsearch",
+          "stars": 2451,
+          "forks": 224,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-07-31",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "mex",
+          "repo": "mex-memory/mex",
+          "url": "https://github.com/mex-memory/mex",
+          "description": "Persistent project memory for AI coding agents: structured scaffold plus drift detection.",
+          "tags": [
+            "memory"
+          ],
+          "official": false,
+          "install": "mex-memory/mex",
+          "stars": 1424,
+          "forks": 98,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "Citadel",
+          "repo": "sethgammon/citadel",
+          "url": "https://github.com/sethgammon/citadel",
+          "description": "Operating layer for Claude Code and Codex: persistent project memory and state.",
+          "tags": [
+            "memory",
+            "state"
+          ],
+          "official": false,
+          "install": "SethGammon/Citadel",
+          "stars": 853,
+          "forks": 81,
+          "language": "JavaScript",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "sidstack",
+          "repo": "junixlabs/sidstack",
+          "url": "https://github.com/junixlabs/sidstack",
+          "description": "Persistent project memory exposed through 32 MCP tools for knowledge and impact.",
+          "tags": [
+            "memory",
+            "mcp"
+          ],
+          "official": false,
+          "install": "junixlabs/sidstack",
+          "stars": 1,
+          "forks": 0,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-03-12",
+          "archived": false,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "Skills & Libraries",
+      "subtitle": "Curated skill libraries for engineering, research, design, security and business work.",
+      "entries": [
+        {
+          "name": "skills",
+          "repo": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Production engineering skills: debugging, testing, architecture and code review workflows.",
+          "tags": [
+            "engineering"
+          ],
+          "official": false,
+          "install": "mattpocock/skills",
+          "stars": 212403,
+          "forks": 18353,
+          "language": "Shell",
+          "license": "MIT",
+          "last_push": "2026-08-07",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "agentic-awesome-skills",
+          "repo": "sickn33/agentic-awesome-skills",
+          "url": "https://github.com/sickn33/agentic-awesome-skills",
+          "description": "AAS Core: the local, agent-first control plane for complete catalog discovery.",
+          "tags": [
+            "catalog",
+            "control-plane"
+          ],
+          "official": false,
+          "install": "sickn33/agentic-awesome-skills",
+          "stars": 44728,
+          "forks": 6555,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "awesome-agent-skills",
+          "repo": "voltagent/awesome-agent-skills",
+          "url": "https://github.com/voltagent/awesome-agent-skills",
+          "description": "1,000+ agent skills from official dev teams and the community, for any agent.",
+          "tags": [
+            "catalog"
+          ],
+          "official": false,
+          "install": "VoltAgent/awesome-agent-skills",
+          "stars": 29944,
+          "forks": 3216,
+          "language": "",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "i-have-adhd",
+          "repo": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "description": "A skill that stops your coding agent from burying the answer: ADHD-friendly output.",
+          "tags": [
+            "style"
+          ],
+          "official": false,
+          "install": "ayghri/i-have-adhd",
+          "stars": 19060,
+          "forks": 1132,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "skills",
+          "repo": "browser-act/skills",
+          "url": "https://github.com/browser-act/skills",
+          "description": "Browser automation CLI built for AI agents: breaks through anti-bot walls.",
+          "tags": [
+            "browser",
+            "automation"
+          ],
+          "official": false,
+          "install": "browser-act/skills",
+          "stars": 5274,
+          "forks": 253,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-05",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "video-shotcraft",
+          "repo": "vincentwei1021/video-shotcraft",
+          "url": "https://github.com/vincentwei1021/video-shotcraft",
+          "description": "AI video skill for Claude Code and Codex: cinematic product videos with Remotion.",
+          "tags": [
+            "video"
+          ],
+          "official": false,
+          "install": "Vincentwei1021/video-shotcraft",
+          "stars": 4488,
+          "forks": 394,
+          "language": "TypeScript",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-09",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "Generative-Media-Skills",
+          "repo": "samuraigpt/generative-media-skills",
+          "url": "https://github.com/samuraigpt/generative-media-skills",
+          "description": "Multi-modal generative media skills for Claude Code, Cursor and Gemini CLI.",
+          "tags": [
+            "media",
+            "image"
+          ],
+          "official": false,
+          "install": "SamurAIGPT/Generative-Media-Skills",
+          "stars": 4021,
+          "forks": 456,
+          "language": "Shell",
+          "license": "MIT",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "ctf-skills",
+          "repo": "ljagiello/ctf-skills",
+          "url": "https://github.com/ljagiello/ctf-skills",
+          "description": "Agent skills for solving CTF challenges: web exploitation, binary pwn and crypto.",
+          "tags": [
+            "security",
+            "ctf"
+          ],
+          "official": false,
+          "install": "ljagiello/ctf-skills",
+          "stars": 2964,
+          "forks": 349,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-07-31",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "vibe-coding-prompt-template",
+          "repo": "khazp/vibe-coding-prompt-template",
+          "url": "https://github.com/khazp/vibe-coding-prompt-template",
+          "description": "Templates and workflow for generating PRDs, tech designs and MVPs.",
+          "tags": [
+            "planning",
+            "templates"
+          ],
+          "official": false,
+          "install": "KhazP/vibe-coding-prompt-template",
+          "stars": 2829,
+          "forks": 358,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-07-18",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "Claude-Code-Everything-You-Need-to-Know",
+          "repo": "wesammustafa/claude-code-everything-you-need-to-know",
+          "url": "https://github.com/wesammustafa/claude-code-everything-you-need-to-know",
+          "description": "A practical Claude Code guide with clear mental models and copy-paste examples.",
+          "tags": [
+            "guide"
+          ],
+          "official": false,
+          "install": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+          "stars": 2625,
+          "forks": 302,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-07-28",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "Deep-Research-skills",
+          "repo": "weizhena/deep-research-skills",
+          "url": "https://github.com/weizhena/deep-research-skills",
+          "description": "Structured deep-research skill for Claude Code, Codex and others with human-in-the-loop checkpoints.",
+          "tags": [
+            "research"
+          ],
+          "official": false,
+          "install": "Weizhena/Deep-Research-skills",
+          "stars": 1922,
+          "forks": 156,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-05-07",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "skills",
+          "repo": "wondelai/skills",
+          "url": "https://github.com/wondelai/skills",
+          "description": "Wondel.ai agent skills: business, marketing, UX and coding frameworks.",
+          "tags": [
+            "business",
+            "marketing"
+          ],
+          "official": false,
+          "install": "wondelai/skills",
+          "stars": 1882,
+          "forks": 192,
+          "language": "Shell",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "engram",
+          "repo": "nagisanzenin/engram",
+          "url": "https://github.com/nagisanzenin/engram",
+          "description": "Evidence-based learning engine: first-principles curricula with frequent review.",
+          "tags": [
+            "learning"
+          ],
+          "official": false,
+          "install": "nagisanzenin/engram",
+          "stars": 1305,
+          "forks": 98,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-08-04",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "gpt-image2-ppt-skills",
+          "repo": "juneyaooo/gpt-image2-ppt-skills",
+          "url": "https://github.com/juneyaooo/gpt-image2-ppt-skills",
+          "description": "Clone any .pptx into your own deck: gpt-image-2 mimics the layout, you keep the story.",
+          "tags": [
+            "office",
+            "slides"
+          ],
+          "official": false,
+          "install": "JuneYaooo/gpt-image2-ppt-skills",
+          "stars": 1162,
+          "forks": 65,
+          "language": "Python",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-02",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "auteur",
+          "repo": "agiwhitelist/auteur",
+          "url": "https://github.com/agiwhitelist/auteur",
+          "description": "The Claude Code skill that directs a website like a film: commit-sheet, scenes, cut.",
+          "tags": [
+            "web",
+            "design"
+          ],
+          "official": false,
+          "install": "agiwhitelist/auteur",
+          "stars": 1077,
+          "forks": 5,
+          "language": "JavaScript",
+          "license": "MIT",
+          "last_push": "2026-08-06",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-smart",
+          "repo": "reflexioai/claude-smart",
+          "url": "https://github.com/reflexioai/claude-smart",
+          "description": "Turns your corrections into preferences, project-specific skills and shared skills.",
+          "tags": [
+            "learning",
+            "memory"
+          ],
+          "official": false,
+          "install": "ReflexioAI/claude-smart",
+          "stars": 765,
+          "forks": 84,
+          "language": "Python",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "title": "Agents & Orchestration",
+      "subtitle": "The agents themselves, multi-agent orchestration and agent team management.",
+      "entries": [
+        {
+          "name": "claude-code",
+          "repo": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "description": "Anthropic's official terminal-based coding agent. The platform everything else plugs into.",
+          "tags": [
+            "official"
+          ],
+          "official": true,
+          "install": "npm: @anthropic-ai/claude-code",
+          "stars": 140923,
+          "forks": 22646,
+          "language": "Python",
+          "license": "",
+          "last_push": "2026-08-08",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "OpenMythos",
+          "repo": "kyegomez/openmythos",
+          "url": "https://github.com/kyegomez/openmythos",
+          "description": "Theoretical reconstruction of the Claude Mythos architecture, built from first principles.",
+          "tags": [
+            "mythos",
+            "research"
+          ],
+          "official": false,
+          "install": "kyegomez/OpenMythos",
+          "stars": 14795,
+          "forks": 3294,
+          "language": "Python",
+          "license": "MIT",
+          "last_push": "2026-05-23",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-octopus",
+          "repo": "nyldn/claude-octopus",
+          "url": "https://github.com/nyldn/claude-octopus",
+          "description": "Surface AI blindspots: up to 8 AI models on every research and code task before you ship.",
+          "tags": [
+            "multi-model",
+            "review"
+          ],
+          "official": false,
+          "install": "nyldn/claude-octopus",
+          "stars": 3953,
+          "forks": 372,
+          "language": "Shell",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "NotFair",
+          "repo": "nowork-studio/notfair",
+          "url": "https://github.com/nowork-studio/notfair",
+          "description": "Goal-driven, loop-powered marketing agents that pursue your business goals 24/7.",
+          "tags": [
+            "marketing"
+          ],
+          "official": false,
+          "install": "nowork-studio/NotFair",
+          "stars": 3341,
+          "forks": 415,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-08-09",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "babysitter",
+          "repo": "a5c-ai/babysitter",
+          "url": "https://github.com/a5c-ai/babysitter",
+          "description": "Enforces obedience on agentic workforces and helps them manage execution.",
+          "tags": [
+            "guardrail",
+            "agents"
+          ],
+          "official": false,
+          "install": "a5c-ai/babysitter",
+          "stars": 1665,
+          "forks": 97,
+          "language": "JavaScript",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "hivemind",
+          "repo": "activeloopai/hivemind",
+          "url": "https://github.com/activeloopai/hivemind",
+          "description": "Turns your traces into reusable skills across agents.",
+          "tags": [
+            "traces",
+            "skills"
+          ],
+          "official": false,
+          "install": "activeloopai/hivemind",
+          "stars": 1541,
+          "forks": 97,
+          "language": "TypeScript",
+          "license": "Apache-2.0",
+          "last_push": "2026-07-30",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "ai-maestro",
+          "repo": "23blocks-os/ai-maestro",
+          "url": "https://github.com/23blocks-os/ai-maestro",
+          "description": "AI agent orchestrator with skills system: manage Claude, Codex or any agent from one dashboard.",
+          "tags": [
+            "orchestration"
+          ],
+          "official": false,
+          "install": "23blocks-OS/ai-maestro",
+          "stars": 745,
+          "forks": 96,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-08-07",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-code-agent-teams-exercises",
+          "repo": "panaversity/claude-code-agent-teams-exercises",
+          "url": "https://github.com/panaversity/claude-code-agent-teams-exercises",
+          "description": "30 practical exercises for agent teams: creation, coordination, quality hooks, parallel review.",
+          "tags": [
+            "learning",
+            "teams"
+          ],
+          "official": false,
+          "install": "panaversity/claude-code-agent-teams-exercises",
+          "stars": 32,
+          "forks": 9,
+          "language": "",
+          "license": "",
+          "last_push": "2026-02-11",
+          "archived": false,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "title": "Safety, Quality & Review",
+      "subtitle": "Guardrails, code review and verification layers for agentic engineering.",
+      "entries": [
+        {
+          "name": "agent-rules-books",
+          "repo": "ciembor/agent-rules-books",
+          "url": "https://github.com/ciembor/agent-rules-books",
+          "description": "AGENTS.md rules and skills for AI coding agents — Codex, Cursor and Claude Code.",
+          "tags": [
+            "rules"
+          ],
+          "official": false,
+          "install": "ciembor/agent-rules-books",
+          "stars": 2463,
+          "forks": 423,
+          "language": "",
+          "license": "MIT",
+          "last_push": "2026-05-22",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "pg-aiguide",
+          "repo": "timescale/pg-aiguide",
+          "url": "https://github.com/timescale/pg-aiguide",
+          "description": "MCP server and Claude plugin for Postgres skills and documentation: better SQL from AI.",
+          "tags": [
+            "database",
+            "mcp"
+          ],
+          "official": false,
+          "install": "timescale/pg-aiguide",
+          "stars": 1809,
+          "forks": 104,
+          "language": "Python",
+          "license": "Apache-2.0",
+          "last_push": "2026-06-26",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "cc-safety-net",
+          "repo": "kenryu42/cc-safety-net",
+          "url": "https://github.com/kenryu42/cc-safety-net",
+          "description": "AI coding agent guardrail: a CLI hook that blocks destructive git and filesystem actions.",
+          "tags": [
+            "safety",
+            "hooks"
+          ],
+          "official": false,
+          "install": "kenryu42/cc-safety-net",
+          "stars": 1479,
+          "forks": 71,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "getspecstory",
+          "repo": "specstoryai/getspecstory",
+          "url": "https://github.com/specstoryai/getspecstory",
+          "description": "Local-first extensions for AI IDEs and terminal agents: specs, history and insights.",
+          "tags": [
+            "specs",
+            "insights"
+          ],
+          "official": false,
+          "install": "specstoryai/getspecstory",
+          "stars": 1297,
+          "forks": 82,
+          "language": "Go",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "brooks-lint",
+          "repo": "hyhmrright/brooks-lint",
+          "url": "https://github.com/hyhmrright/brooks-lint",
+          "description": "AI code reviews grounded in 12 classic engineering books, with decay-risk diagnostics.",
+          "tags": [
+            "review"
+          ],
+          "official": false,
+          "install": "hyhmrright/brooks-lint",
+          "stars": 1295,
+          "forks": 60,
+          "language": "JavaScript",
+          "license": "MIT",
+          "last_push": "2026-08-04",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-video-vision",
+          "repo": "jordanrendric/claude-video-vision",
+          "url": "https://github.com/jordanrendric/claude-video-vision",
+          "description": "Give Claude the ability to watch and understand videos: Claude Code plugin with vision tools.",
+          "tags": [
+            "video"
+          ],
+          "official": false,
+          "install": "jordanrendric/claude-video-vision",
+          "stars": 1186,
+          "forks": 143,
+          "language": "TypeScript",
+          "license": "MIT",
+          "last_push": "2026-08-07",
+          "archived": false,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "catalogs",
+      "title": "Directories & Catalogs",
+      "subtitle": "Where the rest of the ecosystem lives: marketplaces, mega-lists and searchable catalogs.",
+      "entries": [
+        {
+          "name": "skills",
+          "repo": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "description": "Anthropic's official skills library, showing how skills are designed and used internally.",
+          "tags": [
+            "official",
+            "skills"
+          ],
+          "official": true,
+          "install": "anthropics/skills",
+          "stars": 167411,
+          "forks": 19962,
+          "language": "Python",
+          "license": "",
+          "last_push": "2026-08-07",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-plugins-official",
+          "repo": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "description": "Anthropic's official marketplace: 200+ curated first-party and partner plugins.",
+          "tags": [
+            "official",
+            "marketplace"
+          ],
+          "official": true,
+          "install": "auto-registered",
+          "stars": 33366,
+          "forks": 3766,
+          "language": "Python",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-plugins-community",
+          "repo": "anthropics/claude-plugins-community",
+          "url": "https://github.com/anthropics/claude-plugins-community",
+          "description": "Anthropic's reviewed community marketplace, installed with the @claude-community suffix.",
+          "tags": [
+            "official",
+            "marketplace"
+          ],
+          "official": true,
+          "install": "@claude-community",
+          "stars": 341,
+          "forks": 88,
+          "language": "Python",
+          "license": "Apache-2.0",
+          "last_push": "2026-08-10",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "claude-code-templates",
+          "repo": "davila7/claude-code-templates",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "description": "Open-source catalog and CLI behind aitmpl.com: thousands of agents, commands, skills and MCP servers.",
+          "tags": [
+            "catalog",
+            "cli"
+          ],
+          "official": false,
+          "install": "aitmpl.com",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "awesome-claude-code",
+          "repo": "hesreallyhim/awesome-claude-code",
+          "url": "https://github.com/hesreallyhim/awesome-claude-code",
+          "description": "The big curated collection of Claude Code patterns, hooks and commands.",
+          "tags": [
+            "catalog"
+          ],
+          "official": false,
+          "install": "hesreallyhim/awesome-claude-code",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "awesome-claude-skills",
+          "repo": "composiohq/awesome-claude-skills",
+          "url": "https://github.com/composiohq/awesome-claude-skills",
+          "description": "1,000+ skills and SaaS integrations in one install.",
+          "tags": [
+            "catalog"
+          ],
+          "official": false,
+          "install": "ComposioHQ/awesome-claude-skills",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "awesome-claude-plugins",
+          "repo": "composio-community/awesome-claude-plugins",
+          "url": "https://github.com/composio-community/awesome-claude-plugins",
+          "description": "Curated list of production-ready plugins that extend Claude Code.",
+          "tags": [
+            "catalog"
+          ],
+          "official": false,
+          "install": "composio-community/awesome-claude-plugins",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "awesome-claude-plugins-metrics",
+          "repo": "quemsah/awesome-claude-plugins",
+          "url": "https://github.com/quemsah/awesome-claude-plugins",
+          "description": "Automated collection of Claude Code plugin adoption metrics across GitHub repositories.",
+          "tags": [
+            "catalog",
+            "metrics"
+          ],
+          "official": false,
+          "install": "quemsah/awesome-claude-plugins",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "awesome-mcp-servers",
+          "repo": "punkpeye/awesome-mcp-servers",
+          "url": "https://github.com/punkpeye/awesome-mcp-servers",
+          "description": "The de-facto catalog of MCP servers, for Claude Code, Cursor and any MCP client.",
+          "tags": [
+            "catalog",
+            "mcp"
+          ],
+          "official": false,
+          "install": "punkpeye/awesome-mcp-servers",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        },
+        {
+          "name": "servers",
+          "repo": "modelcontextprotocol/servers",
+          "url": "https://github.com/modelcontextprotocol/servers",
+          "description": "Official reference MCP servers from the Model Context Protocol team.",
+          "tags": [
+            "official",
+            "mcp"
+          ],
+          "official": true,
+          "install": "modelcontextprotocol/servers",
+          "stars": null,
+          "forks": null,
+          "language": "",
+          "license": "",
+          "last_push": "",
+          "archived": false,
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

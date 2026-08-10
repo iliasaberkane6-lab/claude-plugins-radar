@@ -1,0 +1,39 @@
+name: refresh
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "data/entries.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install engine
+        run: pip install --quiet .
+
+      - name: Validate registry schema
+        run: awesome-guard check --registry data/entries.yml
+
+      - name: Refresh live stats
+        run: awesome-guard refresh --registry data/entries.yml --readme README.md --json awesome.json --token "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Commit updates
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "awesome-guard[bot]"
+          git config user.email "41898282+awesome-guard[bot]@users.noreply.github.com"
+          git add README.md awesome.json
+          git diff --cached --quiet && echo "no changes to commit" || (git commit -m "chore: auto-refresh ($(date -u +%F))" && git push)
