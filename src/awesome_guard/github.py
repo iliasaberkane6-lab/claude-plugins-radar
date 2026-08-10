@@ -13,7 +13,7 @@ from .model import Entry
 
 API_REPO = "https://api.github.com/repos/{full_name}"
 
-_UA = "awesome-guard/0.1 (+https://github.com/__GH_USER__/claude-plugins-radar)"
+_UA = "awesome-guard/0.1 (+https://github.com/iliasaberkane6-lab/claude-plugins-radar)"
 
 
 def _get(url: str, token: Optional[str]) -> dict:

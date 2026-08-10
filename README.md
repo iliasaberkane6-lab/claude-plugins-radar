@@ -30,12 +30,12 @@ Every entry is manually verified. Every star count and last-commit date is **ref
 Claude Code can read this catalog like a database:
 
 ```bash
-curl -s https://raw.githubusercontent.com/__GH_USER__/claude-plugins-radar/main/awesome.json
+curl -s https://raw.githubusercontent.com/iliasaberkane6-lab/claude-plugins-radar/main/awesome.json
 ```
 
 Example prompt inside Claude Code:
 
-> Read `https://raw.githubusercontent.com/__GH_USER__/claude-plugins-radar/main/awesome.json`
+> Read `https://raw.githubusercontent.com/iliasaberkane6-lab/claude-plugins-radar/main/awesome.json`
 > and recommend a memory plugin for Claude Code with more than 10k stars. Explain in two sentences why.
 
 The JSON includes `stars`, `last_push`, `license`, `language`, `tags`, `install` hints and `verified: true`
@@ -248,10 +248,10 @@ Use it to keep *your own* awesome list fresh forever.
 ## Support
 
 If this list saves you an afternoon, a star is plenty. If it saves you a week,
-[GitHub Sponsors](https://github.com/sponsors/__GH_USER__) is open.
+[GitHub Sponsors](https://github.com/sponsors/iliasaberkane6-lab) is open.
 
 Also building automations for small businesses — spreadsheets, forms, CRMs, workflows —
-[this list is one of the things they feed on](https://github.com/__GH_USER__). Questions are welcome.
+[this list is one of the things they feed on](https://github.com/iliasaberkane6-lab). Questions are welcome.
 
 ## License
 

@@ -29,8 +29,8 @@ dependencies = ["PyYAML>=6.0"]
 awesome-guard = "awesome_guard.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/__GH_USER__/claude-plugins-radar"
-Repository = "https://github.com/__GH_USER__/claude-plugins-radar"
+Homepage = "https://github.com/iliasaberkane6-lab/claude-plugins-radar"
+Repository = "https://github.com/iliasaberkane6-lab/claude-plugins-radar"
 
 [tool.setuptools.packages.find]
 where = ["src"]
