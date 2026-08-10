@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/banner.png" alt="Claude Plugins Radar" width="100%"/>
+
 # 📡 Claude Plugins Radar
 
 ### The live, hand-curated, machine-readable directory of Claude Code plugins, skills & agents.
