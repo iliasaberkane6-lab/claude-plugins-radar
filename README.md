@@ -70,7 +70,7 @@ not a quality rating — read the description before installing.
 
 <!-- AG-META:START -->
 
-> **Last refreshed:** `2026-08-11 10:52 UTC` · **70 repos** tracked · **7** categories · source: `data/entries.yml`
+> **Last refreshed:** `2026-08-11 11:00 UTC` · **70 repos** tracked · **7** categories · source: `data/entries.yml`
 
 <!-- AG-META:END -->
 
