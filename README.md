@@ -10,9 +10,10 @@ Every entry is manually verified. Every star count and last-commit date is **ref
 [`awesome-guard`](https://pypi.org/project/awesome-guard/) — the open-source engine that runs this repo.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/iliasaberkane6-lab/claude-plugins-radar?style=flat&label=stars&color=2ea44f)](https://github.com/iliasaberkane6-lab/claude-plugins-radar)
+[![Daily refresh](https://img.shields.io/github/actions/workflow/status/iliasaberkane6-lab/claude-plugins-radar/refresh.yml?label=daily%20refresh)](.github/workflows/refresh.yml)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg)](pyproject.toml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Updated daily](https://img.shields.io/badge/updated-daily-2ea44f.svg)](.github/workflows/refresh.yml)
 [![PyPI](https://img.shields.io/pypi/v/awesome-guard.svg)](https://pypi.org/project/awesome-guard)
 
 </div>
