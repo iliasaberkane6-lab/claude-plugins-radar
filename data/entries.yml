@@ -237,6 +237,21 @@ categories:
         description: "A practical Claude Code guide with clear mental models and copy-paste examples."
         install: "wesammustafa/Claude-Code-Everything-You-Need-to-Know"
         tags: [guide]
+      - name: "Auto-claude-code-research-in-sleep"
+        repo: "wanshuiyin/Auto-claude-code-research-in-sleep"
+        description: "ARIS: lightweight markdown-only skills for autonomous research while you sleep."
+        install: "wanshuiyin/Auto-claude-code-research-in-sleep"
+        tags: [research, automation]
+      - name: "claude-code-guide"
+        repo: "zebbern/claude-code-guide"
+        description: "Setup, commands, workflows, agents, skills and tips-n-tricks for Claude Code."
+        install: "zebbern/claude-code-guide"
+        tags: [guide]
+      - name: "claude-code-my-workflow"
+        repo: "pedrohcgs/claude-code-my-workflow"
+        description: "Ready-to-fork Claude Code template for academics: LaTeX/Beamer plus R."
+        install: "pedrohcgs/claude-code-my-workflow"
+        tags: [academic, templates]
 
   - id: agents
     title: "Agents & Orchestration"
